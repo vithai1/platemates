@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+
+body {
+  background-color:#FDFD96;
+  margin: 50px auto;
+  max-width: 1000px;
+  color: #224623;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 32px;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head {
+  background-color:#BEE5B0;
+  padding: 5px 10px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  box-shadow: 6px 6px 2px 1px #224623;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rec-wrap {
+  gap: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.rec-item {
+  flex: 1 1 150px;
+  margin: 5px;
+  padding: 10px 20px;
+  border: 4px solid #224623;
+  border-radius: 25px;
+  background: #BEE5B0;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rec-item:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.cookbook-wrap {
+  gap: 10px;
+  width: 49%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cookbook-item {
+  flex: 1 1 150px;
+  margin: 5px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 4px solid #224623;
+  border-radius: 25px;
+  background: #BEE5B0;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.cookbook-item:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.calendar-wrap {
+  gap: 10px;
+  width: 49%;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.calendar-item {
+  flex: 1 1 150px;
+  margin: 5px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 4px solid #224623;
+  border-radius: 25px;
+  background: #BEE5B0;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.calendar-item:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
