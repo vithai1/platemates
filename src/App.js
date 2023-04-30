@@ -16,13 +16,13 @@ function App() {
         </div>
         <div className ="cookbook-wrap">
           <div className='cookbook-item'>
-            <image src= "./Cookbook.png" alt= "cookbook"/>
+            <image src= "assets\cookbook.jpg"  alt= "cookbook"/>
             <h2>Cookbook</h2>
           </div>
         </div>
         <div className='calendar-wrap'>
           <div className='calendar-item'>
-            <image src= "./Calendar.png" alt= "calendar"/>
+            <image src= "assets\calendar.jpg" alt= "calendar"/>
             <h2>Calendar</h2>
           </div>
         </div>
