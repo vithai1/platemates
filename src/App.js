@@ -1,4 +1,6 @@
 import './App.css';
+import cookbook from "./assets/cookbook.jpg"
+import calendar from "./assets/calendar.jpg"
 
 function App() {
   return (
@@ -16,13 +18,13 @@ function App() {
         </div>
         <div className ="cookbook-wrap">
           <div className='cookbook-item'>
-            <image src= "assets\cookbook.jpg"  alt= "cookbook"/>
+            <image src= {cookbook} alt= "cookbook"/>
             <h2>Cookbook</h2>
           </div>
         </div>
         <div className='calendar-wrap'>
           <div className='calendar-item'>
-            <image src= "assets\calendar.jpg" alt= "calendar"/>
+            <image src= {calendar} alt= "calendar"/>
             <h2>Calendar</h2>
           </div>
         </div>
